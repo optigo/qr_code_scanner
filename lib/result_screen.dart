@@ -30,7 +30,11 @@ class ResultScreen extends StatelessWidget {
           children: [
             //Show QR Code Here
 
-            QrImageView(data: '', size: 150, version: QrVersions.auto),
+            QrImageView(
+              data: ''
+              , size: 150
+              , version: QrVersions.auto
+            ),
 
             //QrImage(qrCode)
 
